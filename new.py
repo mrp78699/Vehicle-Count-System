@@ -16,7 +16,7 @@ cv2.setMouseCallback('RGB', RGB)
 
 cap = cv2.VideoCapture('computer vision/videoplayback.mp4')
 
-my_file = open("C:/Users/Dotnet/Documents/new data/computer vision/Day_4/coco.txt", "r")
+my_file = open("computer vision/Day_4/coco.txt", "r")
 data = my_file.read()
 class_list = data.split("\n")
 print(class_list)
